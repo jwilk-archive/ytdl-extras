@@ -11,6 +11,8 @@ from ..utils import (
 )
 
 
+# TODO: https://giphy.com/gifs/UqZ0dKeXXkLREe9qQU
+
 class GiphyIE(InfoExtractor):
     _VALID_URL = r'https://(?:i|media)\.giphy\.com/media/(\w+)/|https://giphy\.com/gifs/[^/#?]+-(\w+)(?:[#?]|$)'
     _TESTS = [{
